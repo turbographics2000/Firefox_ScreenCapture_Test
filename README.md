@@ -1,1 +1,2 @@
 # Firefox_ScreenCapture_Test
+Firefoxでのスクリーンキャプチャーテスト。
