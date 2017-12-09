@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <title>Firefox ScreenCapture Test</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="style.css" rel="stylesheet">
-    </head>
-    <body>
-        <button id="applicationCapture">application</button>
-        <button id="windowCapture">window</button>
-        <button id="screenCapture">screen</button>
-        <video id="preview" autoplay></video>
-        <script src="main.js"></script>
-    </body>
+
+<head>
+    <title>Firefox ScreenCapture Test</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <style>
+        video {
+            position: absolute;
+            margin: 10 auto;
+        }
+
+        #buttonContainer {
+            position: relative;
+            text-align: center;
+        }
+
+        .button {
+            display: inline;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <video id="preview" autoplay></video>
+    <div id="buttonContainer">
+        <button id="applicationCapture" class="button">application</button>
+        <button id="windowCapture" class="button">window</button>
+        <button id="screenCapture" class="button">screen</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+
 </html>
