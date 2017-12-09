@@ -1,0 +1,1 @@
+# Firefox_ScreenCapture_Test
